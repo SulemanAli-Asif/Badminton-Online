@@ -28,9 +28,7 @@
     height: 5px;
     width: 0px;
     background-color: var(--main-color);
-    box-shadow: 0px 1px 20px -4px rgba(0,143,255,0.75);
--webkit-box-shadow: 0px 1px 20px -4px rgba(0,143,255,0.75);
--moz-box-shadow: 0px 1px 20px -4px rgba(0,143,255,0.75);
+ 
   }
 
 .navbar img{
