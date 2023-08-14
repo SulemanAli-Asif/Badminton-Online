@@ -9,7 +9,7 @@
 :root{
     --main-color:#008FFF;
     --sub-color:#bbe1ff;
-    --bg-white:#f2f4f5;
+    --bg-white:#deebf1;
 }
 
 .progress-container {
@@ -57,7 +57,6 @@
     padding-left:50px;
     padding-right:50px;
     text-align:center;
-    background-color: var(--bg-white);
 
 }
 
@@ -154,6 +153,7 @@ border: 1px solid rgba(0, 0, 0, 0.53);
 /* services-section */
 .services
 {
+    background-color: var(--bg-white);
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -206,7 +206,24 @@ border: 1px solid rgba(0, 0, 0, 0.53);
 }
 
 
+/* brands section */
 
+.brands
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px ;
+    justify-content: space-evenly;
+}
 
+.brands img
+{
+    max-height:150px;
+    margin-left:1rem;
+    margin-top:2rem;
+}
 
+#babolat{
+    height: 500px;
+}
 
