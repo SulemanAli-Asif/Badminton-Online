@@ -6,3 +6,14 @@ window.addEventListener('scroll', () => {
     const progressBar = document.getElementById('progressBar');
     progressBar.style.width = `${progress}%`;
   });
+
+  
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }
+  })

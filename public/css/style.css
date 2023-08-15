@@ -227,3 +227,42 @@ border: 1px solid rgba(0, 0, 0, 0.53);
     height: 500px;
 }
 
+/* brands section*/
+.hot-items-section
+{
+    background-color: var(--bg-white);
+    padding:0 50px;
+}
+
+
+
+.swiper {
+    width: 100%;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFF;
+    margin:50px 0;
+    transition: all .2s ease-in-out;
+    overflow: auto;
+  }
+  .swiper-slide:hover{
+    transform: scale(1.04); 
+}
+
+  .swiper-slide img {
+    text-align: center;
+    max-height: 400px;
+    width:100%;
+  }
+ 
+  /* footer */
+  footer {
+    margin: 4rem;
+    text-align: center;
+  }
