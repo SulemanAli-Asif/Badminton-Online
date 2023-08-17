@@ -15,9 +15,9 @@ const productSchema=new mongoose.Schema({
         required:true
     },
     description:{
-        type:String,
-        required:true
+        type:String
     }
 })
 
+// productSchema.plugin(mongoosePaginate);
 module.exports=mongoose.model('products',productSchema);

@@ -1,0 +1,120 @@
+[
+    {
+      "name": "accent chair",
+      "price": 25,
+      "category": "marcos"
+     
+    },
+    {
+      "name": "albany sectional",
+      "price": 109,
+      "category": "liddy"
+    },
+    {
+      "name": "albany table",
+      "price": 309,
+      "category": "liddy"
+    },
+    {
+      "name": "armchair",
+      "price": 125,
+      "category": "marcos"
+    },
+    {
+      "name": "bar stool",
+      "price": 40,
+      "category": "liddy"
+    },
+    {
+      "name": "dining table",
+      "price": 42,
+      "category": "ikea"
+    },
+    {
+      "name": "emperor bed",
+      "price": 23,
+      "category": "ikea"
+    },
+    {
+      "name": "entertainment center",
+      "price": 59,
+      "category": "caressa"
+    },
+    {
+      "name": "high-back bench",
+      "price": 39,
+      "category": "ikea"
+    },
+  
+    {
+      "name": "leather sofa",
+      "price": 99,
+      "category": "caressa"
+    },
+    {
+      "name": "modern bookshelf",
+      "price": 31,
+      "category": "caressa"
+    },
+    {
+      "name": "modern poster",
+      "price": 30,
+      "category": "liddy"
+    },
+    {
+      "name": "shelf",
+      "price": 30,
+      "category": "ikea"
+    },
+    {
+      "name": "simple chair",
+      "price": 109,
+      "category": "liddy"
+    },
+    {
+      "name": "sofa set",
+      "price": 129,
+      "category": "marcos"
+    },
+    {
+      "name": "suede armchair",
+      "price": 15,
+      "category": "caressa"
+    },
+    {
+      "name": "utopia sofa",
+      "price": 79,
+      "category": "liddy"
+    },
+    {
+      "name": "vase table",
+      "price": 120,
+      "category": "marcos"
+    },
+    {
+      "name": "wooden bed",
+      "price": 25,
+      "category": "ikea"
+    },
+    {
+      "name": "wooden desk",
+      "price": 15,
+      "category": "ikea"
+    },
+    {
+      "name": "wooden desk",
+      "price": 40,
+      "category": "ikea"
+    },
+    {
+      "name": "wooden table",
+      "price": 23,
+      "category": "caressa"
+    },
+    {
+      "name": "a first wooden table",
+      "price": 23,
+      "category": "caressa"
+    }
+  ]
+  

@@ -1,0 +1,60 @@
+<div class="filteration-container">
+
+    <div class="drop_down">
+        <button onclick="filterButton()" class="drop_btn">Filter</button>
+        <div id="myDropdown" class="dropdown_content">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="products_container">
+        
+<% data.forEach(prod => { %>
+
+    
+    <div class="card">
+
+        <div class="imgBox">
+          <img src="" class="mouse">
+        </div>
+      
+        <div class="contentBox">
+          <h3><%= prod.name %></h3>
+          <h2 class="price"><%= prod.price %> $</h2>
+          <a href="#" class="buy">Buy Now</a>
+        </div>
+      
+      </div>
+
+ 
+<% }) %>
+
+
+
+    </div>
+
+
+
+
+
+<div class="next_pages">
+    <% if (nextPage!==null) { %>
+        <a href="/products?page=<%= nextPage %>"   class="nextPage paginations"> View Next Page &gt;</a>
+    
+    <% } %>
+</div>
+
+<div class="prev_pages">
+    <% if (current>1) { %>
+        <a href="/products?page=<%= current-1 %>" class=" prevPage paginations">&lt; View Prev Page</a>
+    
+    <% } %>
+</div>
+
+
+
+
